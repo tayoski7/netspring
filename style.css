@@ -1,0 +1,138 @@
+/*master styles*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/*navigation styles*/
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.left{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width: 20%;
+}
+.left>p{
+    margin-left: -120px;
+    font-weight: bold;
+}
+.middle{
+    display:flex;
+    justify-content:space-between;
+    width: 40%;
+}
+.right{
+    display:flex;
+    justify-content:space-around;
+    width: 20%;
+    align-items: center;
+}
+.try{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 6%;
+}
+/*content styles*/
+.content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    margin-top: 60px;
+    margin-left:200px;
+}
+.first>p{
+    margin-top:10px;
+    text-align: left;
+}
+.first>h1{
+    font-size:40px;
+    font-weight: bold;
+    line-height:50px ;
+}
+.bottom{
+    display: flex;
+    height:50px;
+    margin-top:50px;
+    width: 100%;
+    align-items: center;
+}
+.bottom>p{
+    margin-left: 50px;
+}
+.b1st{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 150px;
+height: 100%;
+background: linear-gradient(to right top, #a1ec27,#72f0a0 );
+border-radius: 5px;
+}
+.b1st>img{
+    width: 5%;
+    height: 25%;
+    margin-left: 10px;
+}
+/* footer styles*/
+.footer{
+    width: 80%;
+    height:200px;
+    background: linear-gradient(to right top,#121315, #131416);
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+.footer>img{
+    width: 30%;
+    height:80%;
+    margin-left: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 50%;
+    color: white;
+    justify-content: center;
+}
+.text>p{
+    font-size: 25px;
+}
+.learn-more{
+    display: flex;
+    align-items: center;
+}
+.learn-more>p{
+    font-size: 45px;
+}
+.learn-more>img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
